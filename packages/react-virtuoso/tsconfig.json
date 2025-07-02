@@ -25,5 +25,5 @@
     "allowJs": true
   },
   "include": ["examples", "test", "e2e2", "e2e", "src", "vite.config.ts", "playwright.config.ts", ".ladle/config.mjs"],
-  "exclude": ["node_modules", "dist", "./eslint.config.mjs"]
+  "exclude": ["node_modules", "dist", "eslint.config.mjs"]
 }
