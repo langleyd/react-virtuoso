@@ -23,7 +23,7 @@ export default defineConfig({
     },
     target: ['es2020', 'edge88', 'firefox78', 'chrome79', 'safari14'],
   },
-  plugins: [react(), dts({ rollupTypes: true })],
+  plugins: [react(), dts({ insertTypesEntry: true })],
   test: {
     environment: 'jsdom',
     include: ['test/**/*.test.{ts,tsx}'],
